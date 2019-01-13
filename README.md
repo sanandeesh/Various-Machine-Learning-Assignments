@@ -9,12 +9,13 @@ Input Datasets
 - votes.csv
 - wines.csv
 
-Input Data Set | Descriptions
+Input Data Set | Description
 ---------------|--------------
-cars.csv       |These are words.
-movies.csv     |These are words.
-shaq.csv       |These are words.
-wines.csv      |These are words.
+cars.csv       |Contains 9 features of 392 different car models (e.g. mpg, numCylinders, country of origin, etc). 
+movies.csv     |Contains 28 features of 2952 different movies (e.g. average rating, category, budget, etc).
+shaq.csv       |Contains 27 features of 1633 different freethrows from Shaquille O'Neal (e.g. time, home game, losing, etc).
+votes.csv      |Contains 26 features of 3113 different U.S. counties accross all 50 states during the 2016 presidential race (e.g. num Clinton votes, num Trump votes, percentage white/black/hispanic, ave income, etc).
+wines.csv      |Contains 59 features of 28840 different wines (e.g. country of origin, wine type, price, review keywords, etc).
 
 
 ### Prerequisites
