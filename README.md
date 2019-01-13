@@ -2,7 +2,7 @@
 These are assignments from my graduate Machine Learning (ML) course. They demonstrate the utility of various regression and classification techniques using real-world data.
 
 ## Repository Contents
-This repository contains 5 real world data sets in .csv form. The rows represent unique samples and the columns represent unique features of each sample. The first row contains the label of each feature.
+This repository contains 5 real world data sets in .csv form. The rows represent unique samples and the columns represent unique features of each sample. The first row contains the labels of each feature.
 
 Input Data Set | Description                 | Example Features
 ---------------|-----------------------------| ---------------------------------------------------------------
