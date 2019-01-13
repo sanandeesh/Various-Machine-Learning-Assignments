@@ -41,7 +41,10 @@ After doing this once, you may use the Tensorflow library by calling library(ker
 ## Running the tests
 Make sure that the input data .csv files are in the same directory as the .R files.
 Navigate via commandline to the root directory of this repository.
-Run
+Enter the R environment by typing
+> R
+
+Next, to run a file, type
 > Rscript NameOfFile.R
 
 ## License
