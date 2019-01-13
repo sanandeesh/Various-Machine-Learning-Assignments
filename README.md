@@ -50,4 +50,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 > We're living the future so
 > the present is our past.
-Kanye West (a.k.a Ye)
+
+Kanye West
