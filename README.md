@@ -32,18 +32,22 @@ PredictWinePrice_KerasTensorFlowNN.R  | Apply Keras/Tensorflow Neural Networks t
 All of this software was written in the R programming language (version 3.5.1 (2018-07-02) -- "Feather Spray").
 A few of the files utilize Tensorflow as well as the R Keras interface to Tensorflow.
 
-### Installing
-To install Tensorflow and R Keras, follow these instructions.
+### Installing Tensorflow and R Keras
 1. Install the package 'keras'
 2. Load keras with library(keras) and then run install_keras(). (This takes a long time)
 
 After doing this once, you may use the Tensorflow library by calling library(keras). Keras is a simplified interface to Tensorflow; it is a front-end for Tensorflow that makes Tensorflow more user-friendly.
 
 ## Running the tests
-
+Make sure that the input data .csv files are in the same directory as the .R files.
+Navigate via commandline to the root directory of this repository.
+Run
+> Rscript NameOfFile.R
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-
+> We're living the future so
+> the present is our past.
+Kanye West (a.k.a Ye)
