@@ -9,6 +9,13 @@ Input Datasets
 - votes.csv
 - wines.csv
 
+Input Data Set | Descriptions
+---------------|--------------
+cars.csv       |These are words.
+movies.csv     |These are words.
+shaq.csv       |These are words.
+wines.csv      |These are words.
+
 
 ### Prerequisites
 All of this software was written in the R programming language (version 3.5.1 (2018-07-02) -- "Feather Spray").
