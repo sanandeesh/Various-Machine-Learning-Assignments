@@ -1,22 +1,8 @@
 # Various-Machine-Learning-Assignments
-These are assignments from my graduate Machine Learning course. They demonstrate the utility of various regression and classification techniques using real-world data.
+These are assignments from my graduate Machine Learning (ML) course. They demonstrate the utility of various regression and classification techniques using real-world data.
 
 ## Repository Contents
-Input Datasets
-- cars.csv
-- movies.csv
-- shaq.csv
-- votes.csv
-- wines.csv
-
-Input Data Set | Description
----------------|--------------
-cars.csv       |Contains 9 features of 392 different car models (e.g. mpg, numCylinders, country of origin, etc). 
-movies.csv     |Contains 28 features of 2952 different movies (e.g. average rating, category, budget, etc).
-shaq.csv       |Contains 27 features of 1633 different freethrows from Shaquille O'Neal (e.g. time, home game, losing, etc).
-votes.csv      |Contains 26 features of 3113 different U.S. counties accross all 50 states during the 2016 presidential race (e.g. num Clinton votes, num Trump votes, percentage white/black/hispanic, ave income, etc).
-wines.csv      |Contains 59 features of 28840 different wines (e.g. country of origin, wine type, price, review keywords, etc).
-
+This repository contains 5 real world data sets in .csv form. The rows represent unique samples and the columns represent unique features of each sample. The first row contains the label of each feature.
 
 Input Data Set | Description                 | Example Features
 ---------------|-----------------------------| ---------------------------------------------------------------
@@ -25,6 +11,22 @@ movies.csv     |28 features of 2952 movies   | average rating, category, budget,
 shaq.csv       |27 features of 1633 freethrows from Shaquille O'Neal | time, home game, losing, etc.
 votes.csv      |26 features of 3113 U.S. counties across all 50 states during the 2016 presidential race | num Clinton votes, num Trump votes, percentage white/black/hispanic, ave income, etc.
 wines.csv      |59 features of 28840 wines   | country of origin, wine type, price, review keywords, etc.
+
+ML File                               | Description 
+--------------------------------------|----------------------------------------------------------------------
+AnalyzeWineReviews.R                  | These are words
+ClassifyImagesKerasTensorFlowCNN.R    | These are words.
+ISTA.R                                | These are words.
+LogisticLassoRegression.R             | These are words.
+PredictCarMPG_LassoRegression.R       | These are words.
+PredictMovieRatings_adaBoost.R        | These are words.
+PredictMovieRatings_RidgeRegression.R | These are words.
+PredictShaqFreethrow_LogisticRidgeRegression.R | These are words.
+PredictVotes_KerasTensorFlowNN.R      | These are words.
+PredictVotes_KernelSVM.R              | These are words.
+PredictVotes_KerasTensorFlowNN.R      | These are words.
+PredictWinePrice_KerasTensorFlowNN.R  | These are words.
+
 
 ### Prerequisites
 All of this software was written in the R programming language (version 3.5.1 (2018-07-02) -- "Feather Spray").
