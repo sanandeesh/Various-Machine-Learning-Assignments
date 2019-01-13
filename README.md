@@ -14,12 +14,12 @@ wines.csv      |59 features of 28840 wines   | country of origin, wine type, pri
 
 ML File                               | Description 
 --------------------------------------|----------------------------------------------------------------------
-AnalyzeWineReviews.R                  | These are words
-ClassifyImagesKerasTensorFlowCNN.R    | These are words.
-ISTA.R                                | These are words.
-LogisticLassoRegression.R             | These are words.
-PredictCarMPG_LassoRegression.R       | These are words.
-PredictMovieRatings_adaBoost.R        | These are words.
+AnalyzeWineReviews.R                  | Apply PCA and K-means to 29,000 wine reviews. (Pinot Noir, Chardonnay, and Riesling)
+ClassifyImagesKerasTensorFlowCNN.R    | Apply Keras/Tensorflow Convolutional Neural Networks to classify the type of clothing based on an image of the clothing (i.e. *dataset_fashion_mnist()*).
+ISTA.R                                | Support file for Logistic Regression. Implements the *Iterative Soft Thresholding Algorithm*.
+LogisticLassoRegression.R             | Performs Logistic Lasso on randomly generated model coefficients, input features, and output labels (i.e. synthetic data for demonstration purpose).
+PredictCarMPG_LassoRegression.R       | Apply refitted lasso regression to predict the miles/gallon of cars. (Uses ISTA.R)
+PredictMovieRatings_adaBoost.R        | Apply adaBoost (decision stump weak learners) to classify movies as either above or below average rated. (adaBoost is only for classification)
 PredictMovieRatings_RidgeRegression.R | These are words.
 PredictShaqFreethrow_LogisticRidgeRegression.R | These are words.
 PredictVotes_KerasTensorFlowNN.R      | These are words.
