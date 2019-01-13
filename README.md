@@ -18,6 +18,14 @@ votes.csv      |Contains 26 features of 3113 different U.S. counties accross all
 wines.csv      |Contains 59 features of 28840 different wines (e.g. country of origin, wine type, price, review keywords, etc).
 
 
+Input Data Set | Description                 | Example Features
+---------------|-----------------------------| ---------------------------------------------------------------
+cars.csv       |9 features of 392 car models | mpg, numCylinders, country of origin, etc 
+movies.csv     |28 features of 2952 movies   | average rating, category, budget, etc
+shaq.csv       |27 features of 1633 freethrows from Shaquille O'Neal | time, home game, losing, etc.
+votes.csv      |26 features of 3113 U.S. counties across all 50 states during the 2016 presidential race | num Clinton votes, num Trump votes, percentage white/black/hispanic, ave income, etc.
+wines.csv      |59 features of 28840 wines   | country of origin, wine type, price, review keywords, etc.
+
 ### Prerequisites
 All of this software was written in the R programming language (version 3.5.1 (2018-07-02) -- "Feather Spray").
 A few of the files utilize Tensorflow as well as the R Keras interface to Tensorflow.
