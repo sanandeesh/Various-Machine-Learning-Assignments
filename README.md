@@ -16,7 +16,7 @@ ML File                               | Description
 --------------------------------------|----------------------------------------------------------------------
 AnalyzeWineReviews.R                  | Apply PCA and K-means to 29,000 wine reviews. (Pinot Noir, Chardonnay, and Riesling)
 ClassifyImages_KerasTensorFlowCNN.R   | Apply Keras/Tensorflow Convolutional Neural Networks to classify the type of clothing based on an image of the clothing (i.e. *dataset_fashion_mnist()*).
-ISTA.R                                | Support file for Logistic Regression. Implements the *Iterative Soft Thresholding Algorithm*.
+ISTA.R                                | Support file for Lasso Regularization. Implements the *Iterative Soft Thresholding Algorithm*.
 LogisticLassoRegression.R             | Performs Logistic Lasso on randomly generated model coefficients, input features, and output labels (i.e. synthetic data for demonstration purpose).
 NonNegativeOLS.R                      | Demonstrates how to apply OLS while 'projecting' the values to be non-negative due to a-priori knowledge of that the parameters are non-negative.
 PredictCarMPG_LassoRegression.R       | Apply refitted lasso regression to predict the miles/gallon of cars. (Uses ISTA.R)
