@@ -14,7 +14,7 @@ wines.csv      |59 features of 28840 wines   | country of origin, wine type, pri
 
 This repository contains 11 executable .R files which apply ML algorithms to contruct predictive models based on the data sets described above, as well as synthetic randomly generated features/models/responses. 
 Generally speaking, these predictive models perform either *regression* (i.e. estimation of continuous values) or classification given input feature sets (i.e. predictors).
-The supervised predictive models include OLS, regularized regression (Ridge and Lasso), logistic regression, support vector machines (SVM), ensemble methods (adaBoost, gradientBoost), K nearest neighbours, and neural networks (including CNN).
+The supervised predictive models include linear regression (e.g. OLS), logistic regression, regularized regression (Ridge and Lasso), support vector machines (SVM), ensemble methods (adaBoost, gradientBoost), K nearest neighbours, and neural networks (including CNN).
 The methodology for constructing supervised predictive models revolves around decomposing data sets in training, validation, and test groups.
 Moreover, particular emphasis is placed on *Cross Validation* for producing optimal model parameters.
 Evaluation of regression and classification models are based on mean squared error and mean misclassification rate, respectively. 
