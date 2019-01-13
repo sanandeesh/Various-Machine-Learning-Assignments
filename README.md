@@ -12,6 +12,14 @@ shaq.csv       |27 features of 1633 freethrows from Shaquille O'Neal | time, hom
 votes.csv      |26 features of 3113 U.S. counties across all 50 states during the 2016 presidential race | num Clinton/Trump votes, percentage white/black/hispanic, ave salary, education levels, etc.
 wines.csv      |59 features of 28840 wines   | country of origin, wine type, price, review keywords, etc.
 
+This repository contains 11 executable .R files which apply ML algorithms to contruct predictive models based on the data sets described above, as well as synthetic randomly generated features/models/responses. 
+Generally speaking, these predictive models perform either *regression* (i.e. estimation of continuous values) or classification given input feature sets (i.e. predictors).
+The supervised predictive models include OLS, regularized regression (Ridge and Lasso), logistic regression, support vector machines (SVM), ensemble methods (adaBoost, gradientBoost), K nearest neighbours, and neural networks (including CNN).
+The methodology for constructing supervised predictive models revolves around decomposing data sets in training, validation, and test groups.
+Moreover, particular emphasis is placed on *Cross Validation* for producing optimal model parameters.
+Evaluation of regression and classification models are based on mean squared error and mean misclassification rate, respectively. 
+Additionally, unsupervised learning methods provided here include Principal Component Analysis (PCA), and K-means clustering.
+
 ML File                               | Description 
 --------------------------------------|----------------------------------------------------------------------
 AnalyzeWineReviews.R                  | Apply PCA and K-means to 29,000 wine reviews. (Pinot Noir, Chardonnay, and Riesling)
@@ -27,6 +35,7 @@ PredictVotes_KerasTensorFlowNN.R      | Apply Keras/Tensorflow Neural Networks t
 PredictVotes_KernelSVM.R              | Apply Kernel SVM with Polynomial Kernel to predict whether a county voted for Trump of Clinton.
 PredictWinePrice_KerasTensorFlowNN.R  | Apply Keras/Tensorflow Neural Networks to predict the price a wine sold for based on select words from the corresponding wine review.
 
+Due to the instructive nature of the assignments, predictive models here were mostly developed from scratch (even though R provides built in functionality).
 
 ### Prerequisites
 All of this software was written in the R programming language (version 3.5.1 (2018-07-02) -- "Feather Spray").
